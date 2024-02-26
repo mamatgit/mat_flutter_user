@@ -1,0 +1,41 @@
+name: latihan_tugas
+description: Sebuah proyek Flutter baru.
+# Baris berikut mencegah paket ini secara tidak sengaja dipublikasikan ke
+# pub.dev menggunakan `flutter pub publish`. Ini lebih disukai untuk paket privat.
+publish_to: 'none' # Hapus baris ini jika Anda ingin mempublikasikan ke pub.dev
+
+# Bagian berikut mendefinisikan versi dan nomor build untuk aplikasi Anda.
+# Nomor versi adalah tiga angka yang dipisahkan oleh titik, seperti 1.2.43
+# diikuti oleh nomor build opsional yang dipisahkan oleh tanda +.
+# Baik versi maupun nomor build dapat diubah kembali di flutter
+# build dengan menentukan --build-name dan --build-number, secara berurutan.
+# Di Android, build-name digunakan sebagai versionName sementara build-number digunakan sebagai versionCode.
+# Baca lebih lanjut tentang penomoran versi Android di https://developer.android.com/studio/publish/versioning
+# Di iOS, build-name digunakan sebagai CFBundleShortVersionString sementara build-number digunakan sebagai CFBundleVersion.
+# Baca lebih lanjut tentang penomoran versi iOS di
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# Di Windows, build-name digunakan sebagai bagian utama, minor, dan patch
+# dari versi produk dan file sedangkan build-number digunakan sebagai sufiks build.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0' # Disesuaikan dengan versi SDK yang kompatibel
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  date_format: ^2.0.1
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  shared_preferences: ^2.0.7
+  google_fonts: ^2.1.0 
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/komputer.jpg
